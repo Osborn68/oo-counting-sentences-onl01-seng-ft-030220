@@ -3,12 +3,12 @@ require 'pry'
 class String
 
   def sentence?
-    binding.pry
+   # binding.pry
     self.end_with?(".")
   end
 
   def question?
-
+  binding.pry
   end
 
   def exclamation?
