@@ -8,12 +8,12 @@ class String
   end
 
   def question?
-  binding.pry
-  
+  #binding.pry
+  self.end_with?("?")
   end
 
   def exclamation?
-
+   binding.pry
   end
 
   def count_sentences
